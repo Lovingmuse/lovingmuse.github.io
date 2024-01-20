@@ -1,0 +1,657 @@
+@font-face {
+    font-family: 'bebas';
+    src: url(/fonts/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1{
+    width: 1440px;
+    min-height: 1085px;
+    background-color: #0101a3;
+    margin: 0 auto;
+}
+
+.head {
+    min-height: 120px;
+    border-bottom: 16px solid #e92bde;
+    padding: 41px 56px 39px 58px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    font-family: bebas;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-transform: uppercase; 
+    text-decoration: none;
+    margin-left: 38px;
+}
+.link:hover {
+    color: #e92bde
+}
+
+.p1{
+    display: block;
+}
+.headphones {
+    display: flex;
+}
+.imgheadphones {
+    margin: 117px 132px 159px 69px;
+
+}
+.newsports {
+    font-family: 'bebas';
+    font-size: 105px;
+    line-height: 106px;
+    font-weight: 400;
+    color: #fffefe;
+    text-decoration: underline #e92bde;
+}
+.june{
+    font-family: 'Bebas';
+    font-size: 38.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e92bde;
+}
+.etc {
+    font-family: 'Bebas';
+    font-size: 34.3px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fefefe;
+}
+.btn {
+    width: 202px;
+    height: 54px;
+    font-family: 'bebas';
+    background-color: #e92bde;
+    border: none;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 48px;
+    color: #ffffff;
+}
+
+.btn:hover {
+      color: #00009b 
+}
+.p1 {
+    margin: 159px 89px 224px 124px;
+}
+.newsports {
+    margin-bottom: 40px;
+}
+.june {
+    margin-top: 28px;
+}
+/* ----------------------------------*/
+.page2 {
+    width: 1440px;
+    background-color: #00009b;
+    font-family: 'bebas';
+    
+    box-sizing: content-box;
+    height: 869px;
+}
+
+h1 {
+    font-family: 'Bebas';
+    font-size: 62.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 103px;
+    padding-top: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 210px;
+    gap: 96px;
+}
+.card1 {
+    display: block;
+    margin-left: 190px;
+    text-align: center;
+}
+.card2 {
+    display: block;
+    text-align: center;
+}
+.card3 {
+    display: block;
+    margin-right: 190px;
+    text-align: center;
+}
+.upper {
+    font-size: 37.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'bebas';
+}
+.lower {
+    font-family: 'bebas';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+/*------------------------------------------ */
+.pages345 {
+    width: 1440px;
+    background-color: #0101a3;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.page3 {
+    width: 1440px;
+    font-family: 'bebas';
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #0101a3;
+    display: block;
+}
+.about {
+    text-align: center;
+    font-size: 62.5px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'bebas';
+    margin: 70px 620px 27px 625px;
+}
+.simpletext {
+    font-family: 'Bebas';
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 35px 381px 50px 382px;
+    text-align: center;
+}
+.image1{
+    width: 1184px;
+    height: 503px;
+    margin: 43px 121px 68px 123px;
+} 
+.btn2{
+    width: 202px;
+    height: 49px;
+    background-color: #e92bde;
+    margin-top: 70px;
+    font-family: 'Bebas';
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    border-style: none;
+    margin: 73px 618px 0px 620px;
+}
+.btn2:hover {
+    color: #0101a3;
+}
+/* --------------------------------------- */
+.page4 {
+    width: 1440px;
+    font-family: 'bebas';
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #0101a3;
+    display: flex;
+}
+.imgpage4 {
+    margin: 185px 92px 325px 127px;
+}
+.textalign {
+    margin-top: 285px;
+    margin-bottom: 58px;
+    margin-right: 120px;
+    margin-left: 95px;
+}
+.textpage4 {
+    font-family: 'Bebas';
+    font-size: 37.5px;
+    line-height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 123px;
+    text-align: right;
+
+}
+.displayblock {
+    display: block;
+    margin-right: 123px;
+}
+.btn4 {
+    font-family: 'Bebas';
+    width: 157px;
+    height: 37px;
+    color: #ffffff;
+    background-color: #e92bde;
+    margin-right: 123px;
+    margin-top: 50px;
+    margin-left: 360px;
+
+    font-size: 25px;
+    line-height: 62px;
+    font-weight: 400;
+    border: none;
+    text-align: center;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn4:hover {
+    color: blue;
+}
+
+/* ------------------------------------ */
+
+.page5{
+    width: 1440px;
+    font-family: 'bebas';
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #0101a3;
+    display: flex;
+} 
+.page5text{
+    font-family: 'Bebas';
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 130px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+.blockpage5{
+    display: block;
+}
+.page5head {
+    font-family: 'Bebas';
+    font-size: 62.5px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    margin: 76px 353px 35px 122px;
+}
+
+.imgpg5{
+    width: 652px;
+    height: 595px; 
+    margin-right: 125px;
+    margin-bottom: 248px;
+}
+.btnpage5{
+    width: 202px;
+    height: 54px;
+    font-family: 'bebas';
+    background-color: #e92bde;
+    border: none;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 48px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-right: 365px;
+    margin-left: 125px;
+}
+.btnpage5:hover{
+    color: #00009b 
+}
+
+/* ========================================= */
+
+.page6 {
+    width: 1440px;
+    font-family: 'bebas';
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #000086;
+    display: block;
+    width: 1440px;
+    height: 790px;
+    color: white;
+}
+.cardspage6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 93px;
+}
+.imageladypinkglasses {
+    width: 373px;
+    height: 212px;
+
+}
+.newcard1 {
+    display: block;
+    margin-left: 104px;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.newcard2 {
+    display: block;
+    text-align:left;
+    margin-right: 25px;
+}
+.newcard3 {
+    display: block;
+    text-align: left;
+}
+.btnnew {
+    width: 202px;
+    height: 54px;
+    font-family: 'bebas';
+    background-color: #e92bde;
+    border: none;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    align-items: left;
+    margin-top: 20px;
+}
+.pg6big {
+    font-family: 'Bebas';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.pg6small {
+    opacity: 0.6;
+    font-family: 'Bebas';
+    font-size: 16.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.btnnew:hover{
+    color: #00009b
+}
+/* ============================================ */
+.page7 {
+    width: 1440px;
+    min-height: 100vh;
+    font-family: 'bebas';
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #000086;
+    display: flex;
+    color: white;
+} 
+.bigp7 {
+    font-family: 'Bebas';
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 302px 373px 49px 130px;
+    display: flex;
+}
+.textleft {
+    display: block;
+
+}
+.smallp7 {
+    font-family: 'Bebas';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 49px 170px 56px 130px;
+}
+.buttonsend {
+    width: 151px;
+    height: 44px;
+    background-color: #e92bde;
+    border: none;
+    font-family: 'Bebas';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 54px 446px 298px 130px;
+}
+.buttonsend:hover{
+    color: #00009b
+}
+.pinkform {
+    background-color: #e92bde;
+    margin: 163px 124px 152px 173px;
+    height: 622px;
+    min-width: 580px;
+    display: block;
+    padding: 50px 53px 51px 52px;
+}
+.contactus {
+    font-family: 'Bebas';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+.lvl1 {
+    display: flex;
+    opacity: 0.47;
+    font-family: 'Bebas';
+    font-size: 20.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    gap: 21px; 
+    border-color: white;   
+    background-color: #e92bde;
+}
+.lvl2 { 
+    display: block;
+    opacity: 0.47;
+    font-family: 'Bebas';
+    font-size: 20.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    width: 34px;
+    height: 225px;
+    border-color: white;
+    margin-top: 35px;
+    background-color: #e92bde;
+    gap: 15px;
+}
+#email {
+    width: 474PX;
+      border: 5px solid white;
+}
+#surname {
+    width: 224px;
+    border: 5px solid white;
+}
+#name {
+    width: 225p;
+    border: 5px solid white;
+}
+
+.lvl3 {
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+}
+.bigtextfield {
+    opacity: 0.47;
+    font-family: 'Bebas';
+    font-size: 20.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #e92bde;
+    width: 473px;
+    height: 222px;
+    margin-top: 34px;
+    border: 5px solid white;
+
+
+}
+.endtext {
+    font-family: 'Bebas';
+    font-size: 12.5px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.placeholder {
+    opacity: 0.47;
+    font-family: 'Bebas';
+    font-size: 20.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.47;
+}
+
+/* ========================================== */
+.page8 {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #0101a3;
+    padding: 0;
+    display: block;
+
+}
+.contacttheend {
+    font-family: 'Bebas';
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-align: center;
+}
+.map {
+    margin: 57px 128px 57px 130px;
+}
+.undermap {
+    font-family: 'Bebas';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fefefe;
+    text-align: center;
+    margin-bottom: 75px;
+}
+/* =========================================== */
+
+.page8 {
+    width: 1440px;
+    min-height: 589px;
+    margin-bottom: 117px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0101a3;
+    margin: 0 auto;
+}
+.piclogo {
+    margin: 58px 1178px 356px 57px;
+}
+.cardsnew {
+    align-content: space-around;
+    margin-top: 118px;
+    margin-bottom: 117px;
+    justify-content: flex-start;
+    margin-bottom: 115px;
+    display: flex;
+    gap: 61px;
+    justify-content: left;
+    margin-top: 90px;
+    margin-bottom: 116px;
+    margin-left: 39px;
+}
+.link1 {
+    display: block;
+    text-align: left;
+    font-family: 'Bebas';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-decoration: none;
+}  
+.link2 {
+    display: block;
+    text-align: left;
+    font-family: 'Bebas';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-decoration: none;
+}
+/* =========================================== */
+.footer {
+    width: 1440px;
+    height: 589px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 15px solid #e92bde;
+}
+.copyright {
+    font-family: 'Bebas';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    margin-left: 60px;
+    margin-top: 52px;
+}
+.insta {
+    width: 21px;
+    height: 21px;
+}
+.right {
+    font-family: 'Bebas';
+    font-size: 19.6px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e92bde;
+    display: flex;
+    gap: 6px;
+    margin-top: 52px;
+}
+.fb {
+    width: 11px;
+    height: 21px;
+}
+.twi { 
+    width: 26px;
+    height: 20px;
+
+}
